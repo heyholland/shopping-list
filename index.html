@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <main>
+        <section class="top">
+            <h1>Shopping List</h1>
+        </section>
+        <section class="input">
+            <input type="text" class="input-text" id="item-value" value="" placeholder="Add Item">
+            <button id="add-button">+</button>
+        </section>
+        <section class="list">
+            <ul class="list-items">
+                <li>
+                    <button class="checkbox">✓</button> <span class="list"> Oranges </span>
+                    <button class="delete">x</button>
+                </li>
+                <li class="checked">
+                    <button class="checkbox">✓</button> <span class="list"> Potatoes </span>
+                    <button class="delete">x</button>
+                </li>
+                <li>
+                    <button class="checkbox">✓</button> <span class="list"> Goat cheese </span>
+                    <button class="delete">x</button>
+                </li>
+            </ul>
+        </section>
+        <footer>
+            <button class="clear-all">Clear All</button>
+        </footer>
+    </main>
+</body>
+
+</html>

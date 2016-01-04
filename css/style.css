@@ -1,0 +1,51 @@
+html {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-image: url("../images/notebook.jpg");
+    background-repeat: repeat-y;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: blue;
+}
+
+.list-items {
+    list-style-type: none;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-items li {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.list-items .delete {
+    float: right;
+    margin-right: 3rem;
+}
+
+.list-items .checkbox {
+    margin-right: 1rem;
+}
+
+.clear-all {
+    margin-bottom: 2rem;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: gray;
+}
